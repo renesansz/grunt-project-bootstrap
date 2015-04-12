@@ -7,6 +7,9 @@ This is a simple project bootstrap for web projects that will be using [Grunt JS
     - configs/ - **This is where you put the grunt task config(s)**
     - commands/ - **This is where you declare your grunt commands**
 
+## How to use
+Make sure you've initialized the project by installing dependencies first by executing `npm install` command, then you can proceed. 
+
 ## How do you add in Grunt task configs?
 It's simple! you'll just create a JavaScript file for the grunt task that you want to configure.
 
@@ -70,6 +73,11 @@ Let's say you want to create constant variable(s) (eg: ports, folder paths, etc.
     };
 ```
 By looking in the **gruntConf data property** you can add constant variable(s) that you like and still you can access them in to your task configs by using the `<%= variable_name_here %>` annotation, **make sure you separate them with commas (,)**
+
+I hope this would make your Grunt config as neat as possible.
+
+## Credits
+This project was inspired in this [article](http://ericnish.io/blog/how-to-neatly-separate-grunt-files).
 
 ------------------------------------------------------------------------------------
 **License: MIT**
