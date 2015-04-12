@@ -7,7 +7,7 @@ module.exports = function (grunt) {
     var gruntConf = {
         configPath: path.join(process.cwd(), 'grunt/configs'),
         jitGrunt: {
-            customTasksDir: 'grunt/tasks'
+            customTasksDir: 'grunt/commands'
         },
 
         // Constant Variables
@@ -19,7 +19,7 @@ module.exports = function (grunt) {
 
             // Grunt Directories
             grunt_configc_dir: 'grunt/configs',
-            grunt_tasks_dir: 'grunt/tasks',
+            grunt_tasks_dir: 'grunt/commands',
 
         }
     };
