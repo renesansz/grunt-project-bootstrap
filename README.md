@@ -31,6 +31,7 @@ module.exports = {
 };
 ```
 Very easy right? So if you want to create another config file for a certain task (eg: [Grunt Contrib Connect](https://www.npmjs.com/package/grunt-contrib-connect)), you simply create **connect.js** file and inside is the configuration. make sure to do still `module.exports = {};`
+
 **REMEMBER: always name the files after their corresponding grunt tasks  verbatim**, so a config file for *ngAnnotate* task should be named *ngAnnotate.js*
 
 ## How do you add Grunt commands?
@@ -46,6 +47,7 @@ module.exports = function (grunt) {
 };
 ```
 VERY EASY still right? So now we can do `grunt` in our command line and it will execute the `jshint` and `minify` tasks.
+
 **REMEMBER: if you want to create another command, just simply name it after the command that you are creating** (eg: `grunt build` = *build.js*)
 
 ## What is Gruntfile.js now?
@@ -71,4 +73,5 @@ By looking in the **gruntConf data property** you can add constant variable(s) t
 
 ------------------------------------------------------------------------------------
 **License: MIT**
+
 **Feel free to clone and make it as your bootstrap for your projects**
