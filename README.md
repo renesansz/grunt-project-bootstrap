@@ -2,6 +2,9 @@ Grunt Project Bootstrap
 ----------------------------
 This is a simple project bootstrap for web projects that will be using [Grunt JS](gruntjs.com/getting-started). This is folder a structure for organizing your Grunt task(s) and config(s).
 
+## Download
+Get the latest release [here](https://github.com/renesansz/grunt-project-bootstrap/archive/v1.0.0.zip).
+
 ## Project Structure
 * grunt/
     - configs/ - **This is where you put the grunt task config(s)**
