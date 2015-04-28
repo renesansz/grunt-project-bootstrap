@@ -1,5 +1,5 @@
-Grunt Project Bootstrap
-----------------------------
+Grunt Project Bootstrap [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+---------------------------------------------------------------------------------------------------------
 This is a simple project bootstrap for web projects that will be using [Grunt JS](gruntjs.com/getting-started). This is folder a structure for organizing your Grunt task(s) and config(s).
 
 ## Download
